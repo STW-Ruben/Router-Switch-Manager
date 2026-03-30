@@ -25,8 +25,12 @@ Shell interactivo directo en el dispositivo
 ### Networking
 
 Configuración de interfaces (IP, shutdown, secondary, bandwidth)
+
 Rutas estáticas y default
+
 Protocolos: OSPF, EIGRP, RIP, BGP
+
+Capa 2: VLANs, STP, RSTP y VTP  
 
 ### Seguridad
 
