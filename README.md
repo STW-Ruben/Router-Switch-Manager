@@ -9,10 +9,15 @@ Permite interactuar con routers y switches manejando detalles reales como prompt
 ### Características Principales
 
 Conexión por SSH y Telnet con fallback automático
+
 Detección de dispositivo (hostname, modelo, versión IOS)
+
 Manejo automático de prompts y paginación
+
 Acceso a modo enable con validación
+
 Sistema de logging cifrado (AES-256)
+
 Shell interactivo directo en el dispositivo
 
 ## Funcionalidades
@@ -26,21 +31,29 @@ Protocolos: OSPF, EIGRP, RIP, BGP
 ### Seguridad
 
 ACLs estándar y extendidas
+
 Usuarios locales
+
 Configuración de SSH, consola y VTY
 
 ### Servicios
 
 NAT (estático y overload/PAT)
+
 DHCP
+
 SNMP, NTP, Syslog
 
 ### Diagnóstico y Monitoreo
 
 Ping (simple, extendido, sweep)
+
 Traceroute
+
 TCP probe (verificación de puertos)
+
 ARP, CDP
+
 CPU, memoria, logs
 
 ## Funcionalidad Destacada
@@ -51,8 +64,11 @@ Esto simula escenarios reales donde el salto se hace dentro de la red, no desde 
 ## Tecnologías Utilizadas
 
 Python 3
+
 Paramiko (SSH)
+
 Socket (Telnet)
+
 Cryptography (AES-256 logging)
 
 ## Estado del Proyecto
@@ -62,8 +78,11 @@ El proyecto se encuentra en fase beta.
 ### Pendientes:
 
 Mejor modularización
+
 Separación en archivos
+
 Manejo de excepciones más robusto
+
 Optimización general
 
 Aun así, ya es funcional para múltiples escenarios reales.
