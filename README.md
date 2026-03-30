@@ -95,6 +95,8 @@ git clone https://github.com/STW-Ruben/Router-Switch-Manager.git
 
 cd Router-Switch-Manager
 
-pip install paramiko cryptography
+pip install paramiko cryptography --break-system-packages
 
-python3 Manager.py
+python3 Router-Manager.py
+
+python3 Switch-Manager.py
