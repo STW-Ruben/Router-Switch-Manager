@@ -90,6 +90,7 @@ Aun así, ya es funcional para múltiples escenarios reales.
 ##  Instalación
 
 --bash
+
 git clone https://github.com/STW-Ruben/Router-Switch-Manager.git
 
 cd Router-Switch-Manager
